@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77ab59 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.blog-post {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.blog-post article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.blog-post time {
+    color: #777;
+}
+
+.blog-post p {
+    margin: 10px 0;
+}
+
+/* Sidebar styles */
+aside {
+    flex: 1;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #77ab59;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: #77ab59 3px solid;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    padding: 0 10px;
+}
+
+footer a {
+    color: #77ab59;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
